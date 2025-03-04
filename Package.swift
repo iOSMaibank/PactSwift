@@ -7,8 +7,8 @@ let package = Package(
 	
 	platforms: [
 		.macOS(.v13),
-		.iOS(.v16),
-		.tvOS(.v16),
+		.iOS(.v13),
+		.tvOS(.v13),
 	],
 	
 	products: [
@@ -19,7 +19,7 @@ let package = Package(
 	],
 	
 	dependencies: [
-		.package(url: "https://github.com/ittybittyapps/PactSwiftMockServer.git", branch: "main"),
+		.package(url: "https://github.com/mrDeadLinez/PactSwiftMockServer.git", branch: "main"),
 		.package(url: "https://github.com/pointfreeco/swift-snapshot-testing", exact: "1.16.0"),
 	],
 	
